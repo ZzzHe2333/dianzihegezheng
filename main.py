@@ -185,7 +185,7 @@ if __name__ == "__main__":
     #print(result_list)
     
     if not os.path.isfile(TP2_PATH):
-        print("tp2.png(透明图层)不存在,尝试获取同级文件夹下的TP2.png文件")
+        print("tp2.png(透明图层)不存在,尝试获取同级文件夹下的tp2.png文件")
         TP2_PATH = get_tp2_path()
         if not os.path.isfile(TP2_PATH):
             print("tp2文件不存在,无法使用")
