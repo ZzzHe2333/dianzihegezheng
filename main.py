@@ -7,10 +7,11 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from PIL import Image
 import sys
+
 # ====== 配置项 ======
+# 建议修改这个 TP2_PATH 以提高运行速率
 TP2_PATH = r"C:\Users\Administrator\Desktop\ele_yinzhang\tp2.png"
 MAX_WORK = 4
-
 # =====================
 def get_tp2_path():
     """
